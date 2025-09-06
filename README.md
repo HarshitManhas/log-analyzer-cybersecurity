@@ -4,8 +4,6 @@ A powerful desktop tool built with Python and Tkinter for analyzing log files wi
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)
 
 ## Features
 
