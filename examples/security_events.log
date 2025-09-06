@@ -1,0 +1,20 @@
+2024-01-10 13:55:30 ERROR [SecurityModule] Suspicious login attempt detected from IP 185.220.100.240 - multiple failed attempts
+2024-01-10 13:55:31 WARNING [AuthSystem] Failed login attempt for user 'admin' from IP 185.220.100.240
+2024-01-10 13:55:32 CRITICAL [FirewallModule] Blocked SQL injection attempt: GET /?id=1' UNION SELECT password FROM users-- from IP 185.220.100.240
+2024-01-10 13:55:33 INFO [AccessControl] User 'john.doe' successfully authenticated from IP 192.168.1.100
+2024-01-10 13:55:34 WARNING [SecurityModule] XSS attempt detected: <script>alert('malicious')</script> from IP 203.0.113.10
+2024-01-10 13:55:35 ERROR [DatabaseModule] Connection failed - potential attack detected from IP 185.220.100.241
+2024-01-10 13:55:36 ALERT [IntrusionDetection] Port scanning activity detected from IP 185.220.100.240
+2024-01-10 13:55:37 INFO [AccessControl] User 'jane.smith' logged out successfully
+2024-01-10 13:55:38 CRITICAL [SecurityModule] Brute force attack detected on /wp-admin from IP 185.220.100.242
+2024-01-10 13:55:39 WARNING [FileSystem] Unauthorized file access attempt: /etc/passwd from IP 203.0.113.15
+2024-01-10 13:55:40 ERROR [AuthSystem] Session hijacking attempt detected for user 'admin'
+2024-01-10 13:55:41 INFO [SecurityModule] Successful password reset for user 'user123'
+2024-01-10 13:55:42 ALERT [MalwareDetection] Suspicious file upload detected: malware.exe from IP 185.220.100.243
+2024-01-10 13:55:43 WARNING [NetworkModule] Unusual traffic pattern from IP 203.0.113.20 - potential DDoS
+2024-01-10 13:55:44 CRITICAL [SecurityModule] Privilege escalation attempt detected from user 'guest'
+2024-01-10 13:55:45 INFO [AccessControl] User 'developer' granted temporary admin access
+2024-01-10 13:55:46 ERROR [DatabaseModule] SQL injection blocked: DROP TABLE users; from IP 185.220.100.240
+2024-01-10 13:55:47 WARNING [SecurityModule] Suspicious bot activity detected from IP range 185.220.100.0/24
+2024-01-10 13:55:48 ALERT [IntrusionDetection] Directory traversal attempt: ../../../../etc/passwd from IP 203.0.113.25
+2024-01-10 13:55:49 INFO [SecurityModule] Security scan completed - 15 threats detected and blocked
