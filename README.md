@@ -309,7 +309,7 @@ def create_custom_tab(self):
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is for educational purpose.
 
 ## Acknowledgments
 
@@ -323,8 +323,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions, suggestions, or support:
 
 - Create an issue on GitHub
-- Email: [your-email@example.com]
-- Documentation: [project-docs-url]
+- Email: [harshit.manhas.9@gmail.com]
 
 ---
 
